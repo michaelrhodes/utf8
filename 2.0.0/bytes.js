@@ -1,0 +1,1 @@
+!function(n){"module"in this?module.exports=n():utf8Bytes=n()}(function(){var n=new TextEncoder;return function(e){return n.encode(e)}});
