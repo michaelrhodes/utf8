@@ -4,7 +4,7 @@
 
 ## install
 ```sh
-npm install michaelrhodes/utf8#1.0.0
+npm install https://pkg.mkr.sx/utf8/2.0.0.tgz
 ```
 
 ## use
