@@ -1,6 +1,6 @@
 # utf8
 
-[![build status](https://travis-ci.org/michaelrhodes/utf8.svg?branch=master)](https://travis-ci.org/michaelrhodes/utf8)
+[![ci](https://travis-ci.org/michaelrhodes/utf8.svg?branch=master)](https://travis-ci.org/michaelrhodes/utf8)
 
 ## install
 ```sh
@@ -9,19 +9,19 @@ npm install michaelrhodes/utf8#1.0.0
 
 ## use
 ```js
-var encode = require('utf8/encode')
-var decode = require('utf8/decode')
+var string = require('utf8/string')
+var bytes = require('utf8/bytes')
 
-encode([117, 116, 102, 56])
+string([117, 116, 102, 56])
 > 'utf8'
 
-encode(new Uint8Array([117, 116, 102, 56]))
+string(new Uint8Array([117, 116, 102, 56]))
 > 'utf8'
 
-encode(new Uint8Array([117, 116, 102, 56]).buffer)
+string(new Uint8Array([117, 116, 102, 56]).buffer)
 > 'utf8'
 
-decode('utf8')
+bytes('utf8')
 > Uint8Array([117, 116, 102, 56])
 ```
 

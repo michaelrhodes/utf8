@@ -2,14 +2,15 @@
   "name": "utf8",
   "author": "Michael Rhodes",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "browser": {
-    "./encode": "./browser/encode",
-    "./decode": "./browser/decode"
+    "main.js": "browser.js",
+    "./bytes": "./browser/bytes",
+    "./string": "./browser/string"
   },
   "license": "CC0-1.0",
   "devDependencies": {
-    "dexy": "github:michaelrhodes/dexy#1.0.2"
+    "dexy": "github:michaelrhodes/dexy#1.0.5"
   },
   "scripts": {
     "test": "dexy test"
