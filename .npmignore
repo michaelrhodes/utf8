@@ -1,5 +1,9 @@
 *
+<<<<<<< HEAD
 !browser/
+=======
+!.node-legacy
+>>>>>>> a94b87d... Add .npmignore
 !browser.js
 !bytes.js
 !main.js
